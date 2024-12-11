@@ -1,0 +1,1 @@
+{"name": "cloud-test-automation-suite","version": "1.0.0","dependencies": {"playwright": "^1.45.0","cucumber": "^10.8.0","reqnroll": "^1.0.0"},"scripts": {"test": "npx playwright test"}}

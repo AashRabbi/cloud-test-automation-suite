@@ -1,0 +1,1 @@
+trigger:\n- main\npool:\n  vmImage: "ubuntu-latest"\nsteps:\n- task: NodeTool@0\n  inputs:\n    versionSpec: "18.x"\n- script: npm install\n  displayName: "Install dependencies"\n- script: npx playwright test\n  displayName: "Run Playwright tests"\n- task: PublishTestResults@2\n  inputs:\n    testResultsFormat: "JUnit"\n    testResultsFiles: "**/test-results/*.xml"
