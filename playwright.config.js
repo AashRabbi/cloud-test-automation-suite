@@ -2,3 +2,4 @@ const { defineConfig } = require("@playwright/test"); module.exports = defineCon
 Updated configuration for 2024-12-12
 Updated configuration for 2024-12-17
 Updated configuration for 2024-12-20
+Updated configuration for 2024-12-26
