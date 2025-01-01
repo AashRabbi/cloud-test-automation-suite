@@ -1,1 +1,0 @@
-const { Given, When, Then } = require("@cucumber/cucumber"); Given("the user is logged in", async function () {}); When("the user creates a patient record", async function () {}); Then("the record is saved successfully", async function () {});

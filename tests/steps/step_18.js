@@ -1,1 +1,0 @@
-const { Given, When, Then } = require('@cucumber/cucumber'); Given('a condition', async function () {}); When('an action is taken', async function () {}); Then('the outcome is verified', async function () {});
